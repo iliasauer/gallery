@@ -1,0 +1,20 @@
+{
+  "name": "gallery",
+  "version": "0.1.0",
+  "homepage": "https://github.com/iliasauer/gallery",
+  "authors": [
+    "iliasauer <chrisrealm@hotmail.com>"
+  ],
+  "description": "Simple photogallery",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15"
+  }
+}
