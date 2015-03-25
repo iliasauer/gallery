@@ -14,6 +14,7 @@
     "grunt-contrib-coffee": "^0.13.0",
     "grunt-contrib-imagemin": "^0.9.4",
     "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-less": "^1.0.0",
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-less": "^0.1.7",
