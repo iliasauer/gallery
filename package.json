@@ -1,0 +1,10 @@
+{
+  "name": "gallery",
+  "version": "0.1.0",
+  "description": "Simple photogallery",
+  "author": "Ilia Kisliakovskii <ilia_kisliakovskii@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iliasauer/gallery.git"
+  }
+}
