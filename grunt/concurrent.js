@@ -11,8 +11,7 @@ module.exports = {
         'jshint'
     ],
     devSecond: [
-        'less:dev',
-        'uglify'
+        'less:dev'
     ],
 
     // production tasks

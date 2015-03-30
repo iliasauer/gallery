@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jiffy</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../styles/css/index.css">
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header class="navbar header">
+    <nav class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                jiffy
+            </a>
+            <a class="navbar-brand logo-link" href="index.html">
+                <div class="logo"></div>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a class="header-link" data-hover="Home" href="index.html"></a></li>
+                <li><a class="header-link" data-hover="About" href="https://github.com/iliasauer/gallery"></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="header-link" data-hover="Settings" href="settings.html"></a></li>
+                <li><a class="header-link" data-hover="Logout" href="index.html"></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main class="container">
+    <section class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-12 container-space">
+                <h2 class="uppercase">Edit Info</h2>
+                <div class="thematic-block">
+                    <div class="userpic-block">
+                        <img src="./img/ilia.png" onerror="this.src = '../../images/logo.png';"/>
+                    </div>
+                </div>
+                <div class="thematic-block">
+                    <div class="form-group">
+                        <label>Userpic <span class="glyphicon glyphicon-camera"/></label>
+                        <input class="btn btn-default btn-file" type="file" name="userpic" file-model="myFile">
+                        <div class="divide">
+                            <button type="submit">
+                                Upload <span class="glyphicon glyphicon-upload"/></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="thematic-block">
+                    <form name="DetailsForm">
+                        <div class="form-group">
+                            <label>Email <span class="glyphicon glyphicon-envelope"></span></label>
+                            <input class="form-control" type="email" name="email"
+                                   placeholder="e.g. inspiration@mailbox.com">
+                        </div>
+                        <div class="form-group">
+                            <label>About <span class="glyphicon glyphicon-list-alt"/></label>
+                                <textarea class="form-control" placeholder="e.g. I am taking a picture ;)"
+                                          maxlength="500" name="about"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="reset-button">Reset<span class="glyphicon glyphicon-repeat"/>
+                            </button>
+                            <button type="submit">
+                                    Submit <span class="glyphicon glyphicon-ok"/>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="thematic-block">
+                    <div>
+                        <form name="PasswordForm">
+                            <div class="form-group">
+                                <label>Password <span class="icon-key"></span></label>
+                                <input class="form-control" type="password"
+                                       placeholder="Current password" name="current" required/>
+                                <input class="form-control" type="password"
+                                       placeholder="New password" minlength="8" maxlength="50"
+                                       name="new" required/>
+                                <input class="form-control" type="password"
+                                       placeholder="Confirm new password" minlength="8" maxlength="50"
+                                       name="confirm" required/>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit">
+                                        Submit <span class="glyphicon glyphicon-ok"/>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <a class="underlined underlined-default" href="#">Back to top</a>
+</footer>
+</body>
+</html>

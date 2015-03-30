@@ -17,7 +17,7 @@ module.exports = {
 
     styles: {
         files: [
-            'src/styles/less/*.less'
+            'src/styles/css/less/*.less'
         ],
         tasks: [
             'less:dev'

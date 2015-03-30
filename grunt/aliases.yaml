@@ -1,7 +1,7 @@
 default:
   description: 'Build by default (production)'
   tasks:
-    - release
+    - prod
 dev:
   description: 'Build in developing process'
   tasks:
@@ -22,4 +22,12 @@ prod:
     - 'concurrent:prodFirst'
     - 'concurrent:prodSecond'
     - img
+cleanonly:
+  description: 'Removing dest directory'
+  tasks:
+    - 'clean:all'
+mustacheonly:
+  description: 'HTML compilation'
+  tasks:
+    - 'mustache_render:dev'
 

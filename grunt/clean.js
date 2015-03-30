@@ -1,5 +1,8 @@
 module.exports = {
     all: [
-        'dist/'
+        'dest/'
+    ],
+    css: [
+        'src/styles/css/'
     ]
 };

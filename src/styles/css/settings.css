@@ -1,0 +1,129 @@
+.thematic-block {
+  margin: auto;
+  padding: 24px;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+}
+.thematic-block textarea {
+  resize: vertical;
+}
+.thematic-block > div {
+  display: block;
+  margin: auto;
+}
+.thematic-block > div:nth-child(1) > form > div {
+  margin-top: 10px;
+  text-align: center;
+}
+.thematic-block > div:nth-child(1) > form input[type="text"],
+.thematic-block > div:nth-child(1) > form input[type="password"],
+.thematic-block > div:nth-child(1) > form input[type="email"],
+.thematic-block > div:nth-child(1) > form input[type="url"],
+.thematic-block > div:nth-child(1) > form textarea {
+  font-size: 13px;
+  margin: 5px;
+  min-width: 220px;
+  outline: medium none;
+  padding: 6px;
+}
+.thematic-block > div:nth-child(1) > form > label {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+.thematic-block > div:nth-child(1) > img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #e3e3e3;
+}
+.userpic-block {
+  width: 250px;
+  height: 250px;
+}
+.userpic-block img {
+  width: 250px;
+  height: 250px;
+}
+.userpic-block > div:nth-child(1) > form > textarea {
+  overflow: hidden;
+  resize: none;
+}
+.userpic-block > div:nth-child(1) > form > div {
+  margin-top: 10px;
+  text-align: center;
+}
+.userpic-block > div:nth-child(1) > form > label {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+button[type="submit"] .icon {
+  width: 10px;
+  height: 10px;
+  transition: all 0.4s;
+}
+button[type="submit"] .hover .icon {
+  transform: scale(1.2);
+}
+button[type="submit"]:hover .icon {
+  transform: scale(1.2);
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+.btn-fileinput[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+button[type="submit"] .icon {
+  width: 14px;
+  height: 14px;
+  transition: all 0.4s ease-in-out;
+}
+button[type="submit"] .hover .icon {
+  transform: scale(1.2);
+}
+button[type="submit"],
+.add-post-button,
+.reset-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 15px;
+  width: auto;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(#182245 0%, #151a30 75%, #151222 100%);
+  color: white;
+  cursor: pointer;
+  line-height: 1.2;
+}
+button[type="submit"]:hover,
+.add-post-button:hover,
+.reset-button:hover {
+  background: linear-gradient(#191845 0%, #171530 75%, #191222 100%);
+  color: white;
+}
+.glyphicon {
+  margin-left: 5px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=../less/settings.map */
