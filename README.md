@@ -1,5 +1,3 @@
-# gallery
-Simple photogallery
 ![](https://raw.githubusercontent.com/iliasauer/gallery/master/src/images/logo.png)
 ========
 # jiffy
