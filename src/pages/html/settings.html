@@ -57,8 +57,8 @@
                 </div>
                 <div class="thematic-block">
                     <div class="form-group">
-                        <label>Userpic <span class="glyphicon glyphicon-camera"></span></label>
-                        <input class="btn btn-default btn-file" type="file" name="userpic">
+                        <label for="userpic-filed">Userpic <span class="glyphicon glyphicon-camera"></span></label>
+                        <input class="btn btn-default btn-file" type="file" name="userpic" id="userpic-filed">
                         <div class="divide">
                             <button type="submit">
                                 Upload <span class="glyphicon glyphicon-upload"></span>
@@ -69,12 +69,12 @@
                 <div class="thematic-block">
                     <form name="DetailsForm">
                         <div class="form-group">
-                            <label>Email <span class="glyphicon glyphicon-envelope"></span></label>
-                            <input class="form-control" type="email" name="email"
+                            <label for="email-field">Email <span class="glyphicon glyphicon-envelope"></span></label>
+                            <input class="form-control" type="email" name="email" id="email-field"
                                    placeholder="e.g. inspiration@mailbox.com">
                         </div>
                         <div class="form-group">
-                            <label>About <span class="glyphicon glyphicon-list-alt"></span></label>
+                            <label for="about-field">About <span class="glyphicon glyphicon-list-alt"></span></label>
                                 <textarea class="form-control" id="about-field" placeholder="e.g. I am taking a picture ;)"
                                           maxlength="500" name="about"></textarea>
                         </div>
@@ -91,9 +91,9 @@
                     <div>
                         <form name="PasswordForm">
                             <div class="form-group">
-                                <label>Password <span></span></label>
+                                <label for="current-password-field">Password <span></span></label>
                                 <input class="form-control" type="password"
-                                       placeholder="Current password" name="current" required/>
+                                       placeholder="Current password" name="current-password" id="current-password-field" required/>
                                 <input class="form-control" type="password"
                                        placeholder="New password" maxlength="50"
                                        name="new" required/>
