@@ -4,6 +4,6 @@
 
 Simple photogallery
 
-Less, Bootstrap 3, AngularJS, Mustache, Grunt, CoffeeScript
+Less, Bootstrap 3, AngularJS, Mustache, Grunt, CoffeeScript, Node.js
 
 <hr/>
